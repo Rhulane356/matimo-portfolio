@@ -133,6 +133,50 @@
       border-radius: 10px;
       object-fit: cover;
     }
+
+    /* Media Queries for responsiveness */
+    @media (max-width: 768px) {
+      .side-by-side-images {
+        flex-direction: column;
+      }
+
+      .side-by-side-images img {
+        width: 100%;
+        height: auto;
+      }
+
+      .slim-images-row {
+        flex-direction: column;
+      }
+
+      .slim-images-row img {
+        width: 100%;
+        height: auto;
+      }
+
+      .side-image-text {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .side-image-text img {
+        width: 100%;
+        margin-bottom: 15px;
+      }
+
+      .side-image-text p {
+        width: 100%;
+      }
+
+      .smaller-side-by-side {
+        flex-direction: column;
+      }
+
+      .smaller-side-by-side img {
+        width: 100%;
+        margin-bottom: 15px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -260,8 +304,6 @@
         <p>This house will be built in Venda. The fact that the location is expected to be rural shows that modern houses are not only built in the suburbs.</p>
         <img src="firth4.jpeg" alt="Venda House Design">
       </div>
-
-      
     </div>
   </div>
 </body>
