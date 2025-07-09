@@ -86,6 +86,52 @@
       border-radius: 10px;
       margin: 30px 0 10px;
     }
+
+    .slim-images-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+
+    .slim-images-row img {
+      width: 24%;
+      height: auto;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .side-image-text {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin: 30px 0;
+    }
+
+    .side-image-text img {
+      width: 40%;
+      border-radius: 10px;
+    }
+
+    .side-image-text p {
+      width: 60%;
+      font-size: 1em;
+      color: #333;
+    }
+
+    .smaller-side-by-side {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      margin: 30px 0;
+    }
+
+    .smaller-side-by-side img {
+      width: 48%;
+      height: auto;
+      border-radius: 10px;
+      object-fit: cover;
+    }
   </style>
 </head>
 <body>
@@ -195,6 +241,25 @@
         <img src="forth.jpeg" class="full-width-image" alt="March 2025 Project">
         <p>This was designed by me in March 2025. The client requested a simple 3-bedroom house plan with a butterfly roof and a carport shelter that fits 4 vehicles.</p>
       </div>
+    </div>
+
+    <div>
+      <h1>Pinterest Inspired</h1>
+      <!-- Slim images in a row -->
+      <div class="slim-images-row">
+        <img src="firth1.jpeg" alt="Design 1">
+        <img src="firth2.jpeg" alt="Design 2">
+        <img src="firth3.jpeg" alt="Design 3">
+        <img src="firth5.jpeg" alt="Design 5">
+      </div>
+
+      <!-- Side by side image and paragraph -->
+      <div class="side-image-text">
+        <p>This house will be built in Venda. The fact that the location is expected to be rural shows that modern houses are not only built in the suburbs.</p>
+        <img src="firth4.jpeg" alt="Venda House Design">
+      </div>
+     
+   
     </div>
   </div>
 </body>
